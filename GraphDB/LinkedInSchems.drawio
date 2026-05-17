@@ -1,0 +1,403 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5" pages="8">
+  <diagram id="page_prof" name="Professionals">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="p0" />
+        <mxCell id="p1" parent="p0" />
+        <mxCell id="p_title" value="&lt;b&gt;&lt;font size=&quot;5&quot;&gt;Узел: Professional&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Полный реестр зарегистрированных ИТ-специалистов с указанием грейдов и должностей.&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="p1" vertex="1">
+          <mxGeometry x="40" y="30" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p_spec" value="&lt;b&gt;Спецификация таблицы узла:&lt;/b&gt;&lt;hr&gt;• ID : INT (PRIMARY KEY)&lt;br&gt;• FirstName : NVARCHAR(50)&lt;br&gt;• LastName : NVARCHAR(50)&lt;br&gt;• JobTitle : NVARCHAR(50)&lt;br&gt;• ExperienceLevel : NVARCHAR(20)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;verticalAlign=top;spacingTop=10;" parent="p1" vertex="1">
+          <mxGeometry x="40" y="110" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n1" value="&lt;b&gt;Иван Иванов&lt;/b&gt;&lt;hr&gt;ID: 1&lt;br&gt;Backend Developer&lt;br&gt;Level: Senior" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="40" y="270" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n2" value="&lt;b&gt;Анна Смирнова&lt;/b&gt;&lt;hr&gt;ID: 2&lt;br&gt;Data Scientist&lt;br&gt;Level: Middle" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="230" y="270" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n3" value="&lt;b&gt;Алексей Петров&lt;/b&gt;&lt;hr&gt;ID: 3&lt;br&gt;DevOps Engineer&lt;br&gt;Level: Senior" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="420" y="270" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n4" value="&lt;b&gt;Елена Соколова&lt;/b&gt;&lt;hr&gt;ID: 4&lt;br&gt;Frontend Developer&lt;br&gt;Level: Junior" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="610" y="270" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n5" value="&lt;b&gt;Дмитрий Волков&lt;/b&gt;&lt;hr&gt;ID: 5&lt;br&gt;Product Manager&lt;br&gt;Level: Senior" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="40" y="390" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n6" value="&lt;b&gt;Ольга Морозова&lt;/b&gt;&lt;hr&gt;ID: 6&lt;br&gt;QA Engineer&lt;br&gt;Level: Middle" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="230" y="390" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n7" value="&lt;b&gt;Сергей Лебедев&lt;/b&gt;&lt;hr&gt;ID: 7&lt;br&gt;Fullstack Developer&lt;br&gt;Level: Senior" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="420" y="390" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n8" value="&lt;b&gt;Мария Новикова&lt;/b&gt;&lt;hr&gt;ID: 8&lt;br&gt;UX/UI Designer&lt;br&gt;Level: Middle" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="610" y="390" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n9" value="&lt;b&gt;Павел Козлов&lt;/b&gt;&lt;hr&gt;ID: 9&lt;br&gt;Backend Developer&lt;br&gt;Level: Junior" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="40" y="510" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p_n10" value="&lt;b&gt;Екатерина Ильина&lt;/b&gt;&lt;hr&gt;ID: 10&lt;br&gt;Data Analyst&lt;br&gt;Level: Middle" style="ellipse;whiteSpace=wrap;html=1;align=center;" parent="p1" vertex="1">
+          <mxGeometry x="230" y="510" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page_comp" name="Companies">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="c0" />
+        <mxCell id="c1" parent="c0" />
+        <mxCell id="c_title" value="&lt;b&gt;&lt;font size=&quot;5&quot;&gt;Узел: Company&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Международные организации, выступающие в роли ключевых узлов трудоустройства." style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="c1" vertex="1">
+          <mxGeometry x="40" y="30" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c_spec" value="&lt;b&gt;Спецификация таблицы узла:&lt;/b&gt;&lt;hr&gt;• ID : INT (PRIMARY KEY)&lt;br&gt;• Name : NVARCHAR(100)&lt;br&gt;• Country : NVARCHAR(50)&lt;br&gt;• Industry : NVARCHAR(50)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;verticalAlign=top;spacingTop=10;" parent="c1" vertex="1">
+          <mxGeometry x="40" y="110" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n1" value="&lt;b&gt;Toyota&lt;/b&gt;&lt;hr&gt;ID: 1&lt;br&gt;Япония&lt;br&gt;Automotive" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="40" y="250" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n2" value="&lt;b&gt;Sber&lt;/b&gt;&lt;hr&gt;ID: 2&lt;br&gt;Россия&lt;br&gt;FinTech" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="210" y="250" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n3" value="&lt;b&gt;Oracle&lt;/b&gt;&lt;hr&gt;ID: 3&lt;br&gt;США&lt;br&gt;Database" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="380" y="250" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n4" value="&lt;b&gt;SAP&lt;/b&gt;&lt;hr&gt;ID: 4&lt;br&gt;Германия&lt;br&gt;ERP" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="550" y="250" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n5" value="&lt;b&gt;Parmalat&lt;/b&gt;&lt;hr&gt;ID: 5&lt;br&gt;Италия&lt;br&gt;Food Production" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="40" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n6" value="&lt;b&gt;ASML&lt;/b&gt;&lt;hr&gt;ID: 6&lt;br&gt;Нидерланды&lt;br&gt;Semiconductors" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="210" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n7" value="&lt;b&gt;Kaspersky&lt;/b&gt;&lt;hr&gt;ID: 7&lt;br&gt;Россия&lt;br&gt;Cybersecurity" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="380" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n8" value="&lt;b&gt;Microsoft&lt;/b&gt;&lt;hr&gt;ID: 8&lt;br&gt;США&lt;br&gt;BigTech" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="550" y="350" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n9" value="&lt;b&gt;Yandex&lt;/b&gt;&lt;hr&gt;ID: 9&lt;br&gt;Россия&lt;br&gt;Search &amp; AI" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="40" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="c_n10" value="&lt;b&gt;BSU&lt;/b&gt;&lt;hr&gt;ID: 10&lt;br&gt;Беларусь&lt;br&gt;Education" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="c1" vertex="1">
+          <mxGeometry x="210" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page_skills" name="Skills">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="s0" />
+        <mxCell id="s1" parent="s0" />
+        <mxCell id="s_title" value="&lt;b&gt;&lt;font size=&quot;5&quot;&gt;Узел: Skill&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Каталог навыков, используемых для связывания профилей специалистов с требованиями рынка." style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="s1" vertex="1">
+          <mxGeometry x="40" y="30" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s_spec" value="&lt;b&gt;Спецификация таблицы узла:&lt;/b&gt;&lt;hr&gt;• ID : INT (PRIMARY KEY)&lt;br&gt;• Name : NVARCHAR(50)&lt;br&gt;• Category : NVARCHAR(50)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;verticalAlign=top;spacingTop=10;" parent="s1" vertex="1">
+          <mxGeometry x="40" y="110" width="280" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n1" value="&lt;b&gt;Python&lt;/b&gt;&lt;br&gt;ID: 1&lt;br&gt;Language" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="40" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n2" value="&lt;b&gt;React&lt;/b&gt;&lt;br&gt;ID: 2&lt;br&gt;Framework" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="190" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n3" value="&lt;b&gt;Kubernetes&lt;/b&gt;&lt;br&gt;ID: 3&lt;br&gt;Tool" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="340" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n4" value="&lt;b&gt;SQL&lt;/b&gt;&lt;br&gt;ID: 4&lt;br&gt;Language" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="490" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n5" value="&lt;b&gt;Figma&lt;/b&gt;&lt;br&gt;ID: 5&lt;br&gt;Tool" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="640" y="230" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n6" value="&lt;b&gt;Go&lt;/b&gt;&lt;br&gt;ID: 6&lt;br&gt;Language" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="40" y="350" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n7" value="&lt;b&gt;Docker&lt;/b&gt;&lt;br&gt;ID: 7&lt;br&gt;Tool" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="190" y="350" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n8" value="&lt;b&gt;ML&lt;/b&gt;&lt;br&gt;ID: 8&lt;br&gt;Concept" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="340" y="350" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n9" value="&lt;b&gt;Java&lt;/b&gt;&lt;br&gt;ID: 9&lt;br&gt;Language" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="490" y="350" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s_n10" value="&lt;b&gt;AWS&lt;/b&gt;&lt;br&gt;ID: 10&lt;br&gt;Cloud" style="rhombus;whiteSpace=wrap;html=1;align=center;" parent="s1" vertex="1">
+          <mxGeometry x="640" y="350" width="130" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page_projects" name="Projects">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="j0" />
+        <mxCell id="j1" parent="j0" />
+        <mxCell id="j_title" value="&lt;b&gt;&lt;font size=&quot;5&quot;&gt;Node: Project&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Реестр внутренних, коммерческих и open-source продуктов, разработанных участниками." style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="j1" vertex="1">
+          <mxGeometry x="40" y="30" width="800" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j_spec" value="&lt;b&gt;Спецификация таблицы узла:&lt;/b&gt;&lt;hr&gt;• ID : INT (PRIMARY KEY)&lt;br&gt;• Name : NVARCHAR(100)&lt;br&gt;• ProjectType : NVARCHAR(50)&lt;br&gt;• Status : NVARCHAR(50)" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=15;verticalAlign=top;spacingTop=10;" parent="j1" vertex="1">
+          <mxGeometry x="40" y="110" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n1" value="&lt;b&gt;Payment Gateway&lt;/b&gt;&lt;hr&gt;ID: 1&lt;br&gt;Коммерческий / Активный" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="40" y="250" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n2" value="&lt;b&gt;Rec. Engine&lt;/b&gt;&lt;hr&gt;ID: 2&lt;br&gt;Коммерческий / Завершен" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="220" y="250" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n3" value="&lt;b&gt;OpenSource UI&lt;/b&gt;&lt;hr&gt;ID: 3&lt;br&gt;Open-source / Активный" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="400" y="250" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n4" value="&lt;b&gt;Cloud Migration&lt;/b&gt;&lt;hr&gt;ID: 4&lt;br&gt;Инфраструкт. / Завершен" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="580" y="250" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n5" value="&lt;b&gt;Mobile App v2.0&lt;/b&gt;&lt;hr&gt;ID: 5&lt;br&gt;Коммерческий / Активный" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="40" y="370" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n6" value="&lt;b&gt;Data Warehouse&lt;/b&gt;&lt;hr&gt;ID: 6&lt;br&gt;Инфраструкт. / Завершен" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="220" y="370" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n7" value="&lt;b&gt;Security Audit&lt;/b&gt;&lt;hr&gt;ID: 7&lt;br&gt;Внутренний / Завершен" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="400" y="370" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n8" value="&lt;b&gt;CRM Integration&lt;/b&gt;&lt;hr&gt;ID: 8&lt;br&gt;Коммерческий / Активный" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="580" y="370" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n9" value="&lt;b&gt;Game Engine&lt;/b&gt;&lt;hr&gt;ID: 9&lt;br&gt;Коммерческий / Активный" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="40" y="490" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="j_n10" value="&lt;b&gt;EdTech Portal&lt;/b&gt;&lt;hr&gt;ID: 10&lt;br&gt;Коммерческий / Завершен" style="shape=folder;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=20;" parent="j1" vertex="1">
+          <mxGeometry x="220" y="490" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page_relations" name="Graph connections">
+    <mxGraphModel dx="1101" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="r0" />
+        <mxCell id="r1" parent="r0" />
+        <mxCell id="r_title" value="&lt;font size=&quot;5&quot;&gt;&lt;b&gt;Graph of real interactins&lt;/b&gt;&lt;/font&gt;&lt;br&gt;Визуализация заполненных рёбер (WorkedAt, HasSkill, ParticipatedIn, ConnectedTo)." style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="r1" vertex="1">
+          <mxGeometry x="40" y="30" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p1" value="Иван Иванов (P1)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="350" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p2" value="Анна Смирнова (P2)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="650" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p3" value="Алексей Петров (P3)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="900" y="380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p9" value="Павел Козлов (P9)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="50" y="250" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p5" value="Дмитрий Волков (P5)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="650" y="520" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_p10" value="Екатерина Ильина (P10)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="350" y="650" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g_c9" value="Yandex (C9)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="360" y="110" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g_c4" value="SAP (C4)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="850" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g_c6" value="ASML (C6)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="1050" y="280" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g_s1" value="Python (S1)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="r1" vertex="1">
+          <mxGeometry x="200" y="370" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g_s8" value="ML (S8)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fad7ac;strokeColor=#b46504;" parent="r1" vertex="1">
+          <mxGeometry x="500" y="370" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g_s3" value="Kubernetes (S3)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="800" y="510" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="g_j1" value="Payment Gateway (J1)" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;verticalAlign=top;spacingTop=10;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="345" y="440" width="140" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="g_j2" value="Rec. Engine (J2)" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;verticalAlign=top;spacingTop=10;fontColor=#ffffff;" parent="r1" vertex="1">
+          <mxGeometry x="650" y="110" width="130" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="re_c1" value="ConnectedTo&lt;br&gt;(Colleague)" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeColor=#ff3333;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="r1" source="g_p1" target="g_p2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_c2" value="ConnectedTo&lt;br&gt;(Mentor)" style="endArrow=classic;html=1;rounded=1;strokeColor=#ff3333;strokeWidth=2;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" parent="r1" source="g_p1" target="g_p9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_c3" value="ConnectedTo&lt;br&gt;(Colleague)" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeColor=#ff3333;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="r1" source="g_p2" target="g_p3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_w1" value="WorkedAt&lt;br&gt;Developer" style="endArrow=classic;html=1;rounded=1;strokeColor=#228B22;strokeWidth=2;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" parent="r1" source="g_p1" target="g_c9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_w2" value="WorkedAt&lt;br&gt;Data Scientist" style="endArrow=classic;html=1;rounded=1;strokeColor=#228B22;strokeWidth=2;exitX=0.5;exitY=0;entryX=0;entryY=0.5;" parent="r1" source="g_p2" target="g_c4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_w3" value="WorkedAt&lt;br&gt;DevOps" style="endArrow=classic;html=1;rounded=1;strokeColor=#228B22;strokeWidth=2;exitX=1;exitY=0.25;entryX=0;entryY=0.75;" parent="r1" source="g_p3" target="g_c6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_s1" value="HasSkill&lt;br&gt;Lvl: 5" style="endArrow=classic;html=1;rounded=1;strokeColor=#b8860b;strokeWidth=1.5;exitX=0;exitY=1;entryX=0.5;entryY=0;" parent="r1" source="g_p1" target="g_s1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_s2" value="HasSkill&lt;br&gt;Lvl: 4" style="endArrow=classic;html=1;rounded=1;strokeColor=#b8860b;strokeWidth=1.5;exitX=0;exitY=1;entryX=1;entryY=0;" parent="r1" source="g_p2" target="g_s8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_s3" value="HasSkill&lt;br&gt;Lvl: 5" style="endArrow=classic;html=1;rounded=1;strokeColor=#b8860b;strokeWidth=1.5;exitX=0;exitY=1;entryX=1;entryY=0.25;" parent="r1" source="g_p3" target="g_s3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_j1" value="ParticipatedIn&lt;br&gt;Lead Backend" style="endArrow=classic;html=1;rounded=1;strokeColor=#4b0082;strokeWidth=1.5;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="r1" source="g_p1" target="g_j1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_j2" value="ParticipatedIn&lt;br&gt;ML Engineer" style="endArrow=classic;html=1;rounded=1;strokeColor=#4b0082;strokeWidth=1.5;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" parent="r1" source="g_p2" target="g_j2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_c4" value="ConnectedTo" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeColor=#ff3333;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" parent="r1" source="g_p3" target="g_p5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="re_c5" value="ConnectedTo" style="endArrow=classic;startArrow=classic;html=1;rounded=1;strokeColor=#ff3333;strokeWidth=2;exitX=0;exitY=1;entryX=1;entryY=0;" parent="r1" source="g_p5" target="g_p10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="conceptual_model" name="DataBase Scheme">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="cpl0" />
+        <mxCell id="cpl1" parent="cpl0" />
+        <mxCell id="cpl_title" value="&lt;b&gt;&lt;font size=&quot;5&quot;&gt;Концептуальная инфологическая модель графа&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Архитектура метаданных СУБД: допустимые типы связей между классами узлов." style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="cpl1" vertex="1">
+          <mxGeometry x="40" y="30" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cn_prof" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Professional&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Специалист)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="cpl1" vertex="1">
+          <mxGeometry x="340" y="240" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cn_comp" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Company&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Компания)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="cpl1" vertex="1">
+          <mxGeometry x="60" y="240" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cn_skill" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Skill&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Навык / Технология)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="cpl1" vertex="1">
+          <mxGeometry x="620" y="240" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cn_proj" value="&lt;font size=&quot;3&quot;&gt;&lt;b&gt;Project&lt;/b&gt;&lt;/font&gt;&lt;br&gt;(Проект)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="cpl1" vertex="1">
+          <mxGeometry x="345" y="470" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ced_w" value="WorkedAt&lt;br&gt;(M:1)" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;entryX=1;entryY=0.5;strokeWidth=2;strokeColor=#228B22;" parent="cpl1" source="cn_prof" target="cn_comp" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ced_s" value="HasSkill&lt;br&gt;(M:N)" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;strokeWidth=2;strokeColor=#b8860b;" parent="cpl1" source="cn_prof" target="cn_skill" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ced_p" value="ParticipatedIn&lt;br&gt;(M:N)" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;strokeWidth=2;strokeColor=#4b0082;" parent="cpl1" source="cn_prof" target="cn_proj" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ced_c" value="ConnectedTo&lt;br&gt;(Рефлексивная связь)" style="endArrow=classic;startArrow=classic;html=1;rounded=1;exitX=0.5;exitY=0;entryX=1;entryY=0;strokeWidth=2;strokeColor=#ff3333;" parent="cpl1" source="cn_prof" target="cn_prof" edge="1">
+          <mxGeometry x="-0.2" y="-30" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="230" as="sourcePoint" />
+            <mxPoint x="490" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="415" y="150" />
+            </Array>
+            <mx someValue="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="physical_model" name="Structure">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ph0" />
+        <mxCell id="ph1" parent="ph0" />
+        <mxCell id="ph_title" value="&lt;b&gt;&lt;font size=&quot;5&quot;&gt;MS SQL Graph Data Structue&lt;/font&gt;&lt;/b&gt;&lt;br&gt;Структура скрытых системных и пользовательских колонок в таблицах типа AS NODE и AS EDGE." style="text;html=1;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;" parent="ph1" vertex="1">
+          <mxGeometry x="40" y="30" width="750" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t_node_p" value="&lt;b&gt;Professional (AS NODE)&lt;/b&gt;&lt;hr&gt;+ $node_id : GRAPH_ID&lt;br&gt;• ID : INT (PK)&lt;br&gt;• FirstName : NVARCHAR(50)&lt;br&gt;• LastName : NVARCHAR(50)&lt;br&gt;• JobTitle : NVARCHAR(50)&lt;br&gt;• ExperienceLevel : NVARCHAR(20)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;size=0;" parent="ph1" vertex="1">
+          <mxGeometry x="40" y="120" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t_node_c" value="&lt;b&gt;Company (AS NODE)&lt;/b&gt;&lt;hr&gt;+ $node_id : GRAPH_ID&amp;nbsp;&lt;br&gt;• ID : INT (PK)&lt;br&gt;• Name : NVARCHAR(100)&lt;br&gt;• Country : NVARCHAR(50)&lt;br&gt;• Industry : NVARCHAR(50)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;size=0;" parent="ph1" vertex="1">
+          <mxGeometry x="290" y="120" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t_edge_w" value="&lt;b&gt;WorkedAt (AS EDGE)&lt;/b&gt;&lt;hr/&gt;+ $edge_id : GRAPH_ID (Скрытый)&lt;br/&gt;+ $from_id : NODE_ID (Professional)&lt;br/&gt;+ $to_id : NODE_ID (Company)&lt;br/&gt;• StartDate : DATE&lt;br/&gt;• EndDate : DATE (NULL)&lt;br/&gt;• Role : NVARCHAR(50)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;size=0;" parent="ph1" vertex="1">
+          <mxGeometry x="40" y="280" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="t_edge_h" value="&lt;b&gt;HasSkill (AS EDGE)&lt;/b&gt;&lt;hr/&gt;+ $edge_id : GRAPH_ID (Скрытый)&lt;br/&gt;+ $from_id : NODE_ID (Professional)&lt;br/&gt;+ $to_id : NODE_ID (Skill)&lt;br/&gt;• ProficiencyLevel : INT&lt;br/&gt;• Certified : BIT" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;align=left;spacingLeft=10;size=0;" parent="ph1" vertex="1">
+          <mxGeometry x="290" y="280" width="230" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s0zY7lx9Q9SIIyPbE5xW" name="Tech stack">
+    <mxGraphModel dx="826" dy="598" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="34xuMEQsFPoXSlsZEm9Y-1" value="&lt;b&gt;Payment Gateway&lt;/b&gt;&lt;br&gt;ID: 1" style="shape=folder;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="200" y="175" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="34xuMEQsFPoXSlsZEm9Y-2" value="&lt;b&gt;SQL&lt;/b&gt;&lt;br&gt;ID: 4" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="540" y="170" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="34xuMEQsFPoXSlsZEm9Y-3" value="UsesSkill&lt;br&gt;&lt;font size=&quot;1&quot; color=&quot;#555555&quot;&gt;IsCore: 1&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="34xuMEQsFPoXSlsZEm9Y-1" target="34xuMEQsFPoXSlsZEm9Y-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-2" value="Rec. Engine (J2)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="365" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-3" value="OpenSource UI (J3)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="445" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-4" value="Cloud Migration (J4)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="525" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-5" value="Mobile App v2.0 (J5)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="605" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-6" value="Data Warehouse (J6)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="685" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-7" value="Security Audit (J7)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="765" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-8" value="CRM Integration (J8)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="845" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-9" value="Game Engine (J9)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="925" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-10" value="EdTech Portal (J10)" style="shape=folder;whiteSpace=wrap;html=1;verticalAlign=top;spacingTop=10;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1005" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-12" value="ML (S8)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="360" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-13" value="React (S2)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="440" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-14" value="Kubernetes (S3)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="520" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-15" value="Python (S1)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-16" value="Docker (S7)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="760" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-17" value="Java (S9)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="840" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jMjmqBZrPqYZCAoSqFs4-18" value="Go (S6)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="920" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A8-MSotAURtroW5AKt9c-1" value="&lt;b style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;font size=&quot;4&quot; style=&quot;forced-color-adjust: none; box-shadow: none !important;&quot;&gt;UsesSkill&lt;/font&gt;&lt;/b&gt;&lt;br style=&quot;forced-color-adjust: none; box-shadow: none !important; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(27, 29, 30); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Отображение связи между инфраструктурными задачами и используемыми компонентами.&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="560" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
