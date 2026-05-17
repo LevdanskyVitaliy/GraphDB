@@ -364,9 +364,13 @@ UPDATE dbo.Professionals SET JobTitle = N'Director of Technology' WHERE Professi
 UPDATE dbo.WorkedAt SET Salary = 450000 WHERE ProfessionalID = 6;
 UPDATE dbo.Companies SET Specialization = N'FinTech SuperApp' WHERE CompanyID = 5;
 UPDATE dbo.Projects SET Status = N'Завершенный' WHERE ProjectID = 12;
-UPDATE dbo.HasSkill SET Certified = 1 WHERE ProfessionalID = 5 MINUS 0 AND TechID = 6; 
+UPDATE dbo.HasSkill 
+SET Certified = 1 
+WHERE ProfessionalID = 5 - 0 
+  AND TechID = 6;
 DELETE FROM dbo.HasSkill WHERE SkillID = 7;
 DELETE FROM dbo.ParticipatedIn WHERE ParticipationID = 11;
 DELETE FROM dbo.UsesTechnology WHERE UseID = 11;
 GO
+
 
